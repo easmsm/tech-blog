@@ -5,13 +5,9 @@ main {
 }
 
 .card-body, nav{
-  box-shadow: 5px 4px 13px -7px rgba(0,0,0,0.51);
   font-size: 20px;
 }
 
-.nav-item:hover, .nav-item:active {
-  text-decoration: underline;
-}
 
 .create {
   margin-right: 15px;
