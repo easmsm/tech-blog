@@ -1,9 +1,6 @@
 const router = require('express').Router();
 const { User, Post, Comment } = require('../../models');
 
-//add with auth
-const withAuth = require('../../utils/auth');
-
 router.get('/', (req, res) => {
   User.findAll({
     attributes: { exclude: ['password'] }
